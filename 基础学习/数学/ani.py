@@ -38,7 +38,7 @@ def update(i):
     global x1
     gradient = df(x1)
     x1 -= lr * gradient
-    point.set_data(x1, f(x1))
+    point.set_data([x1], [f(x1)])
     value_display.set_text("Min = {:.2f}, {:.2f}".format(x1, f(x1)))
     return point, value_display
 
