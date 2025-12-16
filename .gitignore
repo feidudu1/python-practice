@@ -1,1 +1,7 @@
 ./基础学习/pytorch/数据集加载/data
+./基础学习/pytorch/模型训练与可视化/data/
+__pycache__/
+wandb/
+
+# 模型
+*.pth
