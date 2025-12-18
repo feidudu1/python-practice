@@ -1,7 +1,14 @@
-./基础学习/pytorch/数据集加载/data
-./基础学习/pytorch/模型训练与可视化/data/
+基础学习/pytorch/**/data/
+基础学习/pytorch/**/dataset
+基础学习/pytorch/**/*.csv
+
 __pycache__/
 wandb/
+mnist_images/
+logs/
+test.txt
+train.txt
+
 
 # 模型
 *.pth
